@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo a {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none; /* Prevent underline on initial state */
+    color: black;
+  }
+  
+  .logo a:hover {
+    text-decoration: none; /* Prevent underline on hover */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    color: #555555;
+  }
